@@ -1,0 +1,17 @@
+class Solution {
+//      void recurInorder(TreeNode*root,vector<int>&ans){
+//        if(root==NULL){
+//            return;
+//        }
+//        recurInorder(root->left,ans);
+//        ans.push_back(root->val);
+//        recurInorder(root->right,ans);
+//    }
+
+// public:
+//    vector<int> inorderTraversal(TreeNode* root) {
+//        vector<int>ans;
+//        recurInorder(root,ans);
+//         return ans;
+//     }
+};

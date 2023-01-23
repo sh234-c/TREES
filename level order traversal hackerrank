@@ -1,0 +1,12 @@
+queue<Node*>q;
+q.push(root);
+while(!q.empty()){
+    Node*root=q.front();
+    q.pop();//we remove the old element
+    cout<<root->data<<' ';
+    if(root->left) q.push(root->left);
+    if(root->right) q.push(root->right);
+}
+    }
+
+};
